@@ -1,11 +1,11 @@
 {
-    "name": "fineartsociety",
-    "short_name": "fineartsociety",
+    "name": " Bit Burst ",
+    "short_name": " Bit Burst ",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Providing Bitcoin ATMs as service, your one stop bitcoin asset store.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
