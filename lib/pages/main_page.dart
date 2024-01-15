@@ -127,12 +127,12 @@ class MainPage extends StatelessWidget {
                       ),
                       CarouselSlider(
                         items: [
-                          'assets/press1.png',
-                          'assets/press2.png',
-                          'assets/press3.png',
-                          'assets/press1.png',
-                          'assets/press2.png',
-                          'assets/press3.png',
+                          'assets/13.png',
+                          'assets/14.png',
+                          'assets/15.png',
+                          'assets/13.png',
+                          'assets/14.png',
+                          'assets/15.png',
                         ].map((pressImagePath) {
                           return ClipRRect(
                             borderRadius: BorderRadius.circular(20),
