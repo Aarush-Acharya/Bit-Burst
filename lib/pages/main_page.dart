@@ -7,8 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../widgets/custom_app_bar.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:url_launcher/url_launcher.dart';
 import '../widgets/footer_widget.dart';
+
 
 class MainPage extends StatelessWidget {
   MainPage({super.key});
@@ -254,6 +254,9 @@ class MainPage extends StatelessWidget {
                                                 width: 20,
                                               ),
                                               SizedBox(
+                                                height: 0.02896995708 *
+                                                    MediaQuery.sizeOf(context)
+                                                        .height,
                                                 width:
                                                     MediaQuery.sizeOf(context)
                                                             .width -
@@ -269,7 +272,9 @@ class MainPage extends StatelessWidget {
                                             ],
                                           ),
                                           SizedBox(
-                                            height: 55,
+                                            height: 0.05901287554 *
+                                                MediaQuery.sizeOf(context)
+                                                    .height,
                                           ),
                                         ],
                                       );
