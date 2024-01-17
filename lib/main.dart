@@ -24,19 +24,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => MainPage(),
-        // '/artist': (context) => const ArtistPage(),
         '/browseAtm': (context) => BrowseAtm(),
         '/findAtm': (context) => FindAtm(),
         '/customerSupport': (context) => CustomerSupport(),
         '/hostAtm': (context) => HostAtm(),
-        // '/news': (context) => const NewsPage(),
-        // '/allArtist': (context) => const AllArtistsPage(),
-        // '/events': (context) => const EventsPage(),
-        // '/contact': (context) => const ContactPage(),
-        // '/exhibitions': (context) => const ExhibitionPage(),
-        // '/indivisualItem': (context) => const IndivisualPage(),
-        // '/productsPage': (context) => const ProductsPage()
-        // Add more routes as needed
       },
     );
   }
