@@ -73,7 +73,7 @@ class MainPage extends StatelessWidget {
                       ),
                       AutoSizeText(
                         maxLines: 1,
-                        "BITCOIN ATMs",
+                        "CASH ATMs",
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 35,
